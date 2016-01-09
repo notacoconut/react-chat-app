@@ -1,0 +1,23 @@
+{
+  "name": "react-chat-app",
+  "version": "1.0.0",
+  "description": "A chatting app built with react",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "react.js",
+    "node.js"
+  ],
+  "author": "Notacoconut",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}
