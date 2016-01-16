@@ -17,6 +17,7 @@
     "babelify": "^7.2.0",
     "body-parser": "^1.14.2",
     "express": "^4.13.3",
+    "less": "^2.5.3",
     "react": "^0.14.6",
     "react-dom": "^0.14.6"
   }
