@@ -48,49 +48,34 @@ html, body {
 }
 .chatbox__messages{
   position:absolute;
+  overflow: auto;
+  height: 90%;
   width: 450px;
 }
 .chatbox__messages__user-message:nth-of-type(odd) .chatbox__messages__user-message {
   float: right;
 }
-.chatbox__messages__user-message:nth-of-type(odd) .chatbox__messages__user-message:after {
-  content: '';
-  position: absolute;
-  margin: -1.5em -17.06em;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid rgba(255, 255, 255, 0.2);
-}
+
 .chatbox__messages__user-message:nth-of-type(even) .chatbox__messages__user-message {
   float: left;
 }
-.chatbox__messages__user-message:nth-of-type(even) .chatbox__messages__user-message:after {
-  content: '';
-  position: absolute;
-  margin: -1.5em 1.87em;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid rgba(255, 255, 255, 0.2);
-}
+
 .chatbox__messages__user-message {
   height: auto;
   width: 65%;
+  margin-left: 20px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
 }
 .chatbox__messages__user-message--text {
   padding: 1em 0;
-
   margin: 2em 1em;
   overflow: auto;
 }
 .chatbox__messages__user-message--text > p.name {
   color: #FFF;
   font-size: 1em;
+  margin-bottom: 0.8em;
 }
 .chatbox__messages__user-message--text > p.message {
   color: #FFF;
